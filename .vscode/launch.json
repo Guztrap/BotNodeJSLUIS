@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    {
+        "type": "node",
+        "request": "launch",
+        "name": "Launch Program",
+        "program": "${workspaceFolder}/app.js",
+        "env": {
+            "NODE_ENV": "development",
+            "MicrosoftAppId" : "",
+            "MicrosoftAppPassword" : "",
+            "LuisApiHostName" : "westus.api.cognitive.microsoft.com",
+            "LuisAppId" : "8a807987-ab01-482b-aab9-77d0d2f3591e",
+            "LuisSubscriptionKey" : "a176d772906c4c0b8376d1c919678a9c"
+        },
+    },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/app.js"
+        }
+    ]
+}
